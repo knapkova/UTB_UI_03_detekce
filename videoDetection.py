@@ -31,7 +31,7 @@ while True:
         for (sx, sy, sw, sh) in smiles:
             cv2.rectangle(frame, (x + sx, y + sy), (x + sx + sw, y + sy + sh), (100, 100, 90), 2)
 
-    time.sleep(0.03)
+    time.sleep(0.03) # time sleep na zpomaleni videa a prostor pro udelani screenshotu
     cv2.imshow('Video', frame)
 
 
